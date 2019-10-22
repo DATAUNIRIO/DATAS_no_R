@@ -9,6 +9,11 @@
 ##    Fonte: http://www.leg.ufpr.br/%7Ewalmes/ensino/ce223-2011-01/ce223-2011-01-aula22.R
 ##================================================================================================
 
+
+# Para expressoes regulares no r, tem esse material:
+# http://material.curso-r.com/stringr/
+
+
 #------------------------------------------------------------------------------------------
 # uma string que representa uma data precisa ser convertido para data, usando as.Date()
 
