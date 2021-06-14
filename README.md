@@ -62,5 +62,10 @@ format(Sys.Date(),"%d/%m/%Y")
 format(Sys.Date(), "%d %b %Y")    
    
 ------------------------------------------------------------------------------------------    
-   
+codigo do José de Jesus Filho no telegram   
+library(magrittr)
+
+"Jan-89" %>% 
+  paste0("15-",.) %>% 
+  lubridate::dmy()
    
