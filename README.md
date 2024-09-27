@@ -68,4 +68,11 @@ library(magrittr)
 "Jan-89" %>% 
   paste0("15-",.) %>% 
   lubridate::dmy()
-   
+
+------------------------------------------------------------------------------------------
+
+library(tibble)
+library(janitor)
+
+banco_complementar$data_baixa = excel_numeric_to_date(as.numeric(as.character(banco_complementar$`Data baixa`)), date_system = "modern") 
+difftime(banco_complementar$data_baixa,banco_complementar$`Data de autuação`,units="days")                        
